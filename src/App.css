@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+ /*height: 40vmin;*/
+  width: 30px;
+  height: 30px;
+}
+
+.App-title {
+  font-size: 1em;
+  margin-left: 10px;
+  color: hsla(0,0%,100%,.6);
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 8px;
+  position: fixed;
+  z-index: 1;
+}
+
+.App-link {
+  color: #09d3ac;
+  color: hsla(0,0%,100%,.6);
+  padding: 8px;
+  text-decoration: none;
+}
+.App-link.active {
+  color: #fff;
+}
+.test-input {
+  margin: 0 5px 5px 0;
+}
+.App-nav {
+  width: 350px;
+  height: 100%;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 56px 10px 10px 10px;
+  overflow: auto;
+  position: fixed;
+}

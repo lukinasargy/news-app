@@ -1,0 +1,65 @@
+
+.Post {
+    /*width: 950px;*/
+    max-width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 46px 20px 20px 370px;
+    width: 950px;
+    box-sizing: content-box;
+    /*margin-left: 350px;*/
+    margin: 0 auto ;
+
+}
+.title {
+    text-align: left;
+}
+.Back {
+    display:none;
+}
+.Post__active {
+    cursor: auto
+
+}
+.Post__active .Back {
+    display: block;
+}
+.img {
+    max-width: 100%;
+    width: 700px;
+    margin-bottom: 20px;
+}
+.text {
+    max-width: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
+.ad {
+    border: 1px solid #000;
+    /*display: block;*/
+    display: flex;
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    margin: 10px;
+}
+.ad:before {
+    position: absolute;
+    content: 'Hot';
+    background-color: darkorange;
+    color: #fff;
+    padding: 5px;
+    left: -5px;
+    top: -5px;
+
+}
+.adImg {
+    width: 200px;
+    display: inline-block;
+}
+.adText {
+    display: inline-block;
+    width: calc(100% - 200px);
+
+}
